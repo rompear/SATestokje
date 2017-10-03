@@ -1,0 +1,4 @@
+*.pyc
+./slides_presentation/*
+*.numbers
+./zchaff/*

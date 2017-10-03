@@ -1,0 +1,43 @@
+/* CSS Document */
+table#board td {
+    width:25px;
+    height:25px;
+    text-align : center ;
+    empty-cells : show ;
+}
+
+table#board td.cell {
+    border: solid 1px;
+    background:white;
+}
+
+table#board td.right {
+    border-right: solid red 2px;
+}
+
+table#board td.left {
+    border-left: solid red 2px;
+}
+
+table#board td.top {
+    border-top: solid red 2px;
+}
+
+table#board td.bottom {
+    border-bottom: solid red 2px;
+}
+
+table#board td.locked {
+    color:red;
+}
+
+table#board td.selected {
+    background:RGB(0,255,255);
+}
+ 
+table#symbols td {
+    width:25px;
+    height:25px;
+    text-align : center ;
+    empty-cells : show ;
+}
